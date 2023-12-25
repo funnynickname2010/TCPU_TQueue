@@ -127,13 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="TComputationSystem.h" />
     <ClInclude Include="TCPU.h" />
     <ClInclude Include="TQueue.h" />
+    <ClInclude Include="TTaskFlow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="TComputationSystem.cpp" />
     <ClCompile Include="TCPU.cpp" />
     <ClCompile Include="TQueue.cpp" />
+    <ClCompile Include="TTaskFlow.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
